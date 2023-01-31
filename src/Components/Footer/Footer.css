@@ -1,0 +1,59 @@
+.footerContainer{
+    height: 8vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftFoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    
+    width: 400px;
+}
+
+.cellCont{
+    height: 50px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.cell{
+    border: 2px solid black;
+    padding: 12px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:slategrey;
+}
+.cellSpan{
+    font-size: large;
+    color: white;
+}
+
+.rightFoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    height: 50px;
+    width: 400px;
+}
+.btns{
+    border: 1px solid darkslategrey;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: crimson;
+    border: 1px solid transparent;
+}
+.btns>i{
+    color: wheat;
+}
